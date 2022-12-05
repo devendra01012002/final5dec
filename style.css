@@ -1,0 +1,201 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.navbar{
+    display: flex;
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+    height: 10vh;
+}
+.nav2 a{
+    text-decoration: none;
+    margin: 10px;
+    color: blue;
+    font-size: 1.3rem;
+}
+.nav2 a:hover{
+    color: coral;
+}
+.nav1 {
+    color: blue;
+    font-size: 2rem;
+}
+.nav1 i{
+      color:coral;
+}
+.nav3{
+    font-size: 1.5rem;
+    
+}
+.nav3 i{
+    margin: 5px;
+    background-color: rgb(233, 230, 230);
+    padding: 4px;
+    border-radius: 5px;
+}
+.nav3 i:hover{
+    background-color: coral;
+}
+.backimg{
+    background-image: url(banner-bg.webp);
+    text-align:center;
+    background-size:cover;
+    background-position:center;
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+.backimg h1{
+    font-size: 3rem;
+
+}
+.backimg h1 strong{
+    color: coral;
+}
+button{
+    height: 40px;
+    width: 100px;
+    border: 2px solid blue;
+    border-radius: 5px;
+    
+}
+button:hover{
+    background-color: coral;
+}
+.customer{
+    background-color: rgb(207, 204, 204);
+padding: 20px;
+color: blue;
+}
+.customer .customerhead{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.customerhead strong{
+    background-color: coral;
+    border-radius:5px;
+    color: white;
+}
+.customer .customerimage{
+    padding: 60px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: ; */
+    text-align: center;
+    background-color: white;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+.customerimage:hover{
+    border: 2px solid blue;
+}
+.customerimage img{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+}
+.customerimage i{
+    color: coral;
+}
+.blogimage i{
+    color: orange;
+}
+.blog .bloghead{
+    display: flex;
+    justify-content: space-around;
+    font-size: 2rem;
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.bloghead strong{
+    background-color: coral;
+    border-radius:5px;
+    color: white;
+}
+.blogimage{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    width: 100vw;
+    color: rgb(39, 39, 105);
+  
+}
+.blogimage img{
+    width: 300px;
+}
+.blogimage div{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    text-align: center;
+    justify-content: space-around;
+    background-color: white;
+}
+.blog{
+    background-color: rgb(207, 204, 204);
+    padding: 30px;
+    
+}
+.foot{
+    display: flex;
+    justify-content: space-around;
+    padding: 80pxpx;
+    color: blue;
+
+}
+.foot  .menus i{
+    color: coral;
+    
+}
+.foot .menus a{
+    font-size: 2rem;
+}
+.foot .menug i{
+    margin: 5px;
+    background-color: rgb(233, 230, 230);
+    padding: 4px;
+    border-radius: 5px;
+}
+.foot .menug i:hover{
+    background-color: coral;
+}
+.foot .menu3 li{
+    list-style:none;
+    margin: 20px;
+   
+}
+.foot .menu3 li i{
+    color: coral;
+}
+.foot .menu2 li{
+    list-style: none;
+    margin: 20px;
+}
+.foot .menu2 li i{
+    color: coral;
+}
+.footer{
+    padding: 30px;
+}
+.c1{
+    padding: 10px;
+  
+}
+.c2{
+    padding: 10px;
+}
+.c3{
+    padding: 10px;
+}
